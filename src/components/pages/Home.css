@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Oswald&family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi&display=swap');
+
+
+.header{
+  display: none;
+}
+
+.wrapper {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: black;
+   /* background: url(../images/test.jpeg);
+  background-size:cover; */
+}
+
+.electrical{
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    position: absolute;
+    top: 64%;
+    left: 38.5%;
+    color: tomato;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
+.Construction{
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    position: absolute;
+    top: 64%;
+    left: 46.5%;
+    color: tomato;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
+
+.maintainance{
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    position: absolute;
+    top: 64%;
+    left: 55.5%;
+    color: tomato;
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+}
+
+.ndimande{
+    font-family: 'Tiro Gurmukhi', serif;
+    margin: 0;
+    position: absolute;
+    top: 54%;
+    left: 44.0%;
+    color: tomato;
+    font-size: 44px;
+    /* font-style: italic; */
+    text-align: center;
+}
+
+.wrapper h1 {
+  /* font-family: 'Amatic SC', cursive; */
+  font-size: 64px;
+  color: tomato;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  /* I think this works for centering? */
+  top: calc(50% - 64px);
+  -webkit-transform: translate(-50%, calc(-50% - 64px));
+  -ms-transform: translate(-50%, calc(-50% - 64px));
+  transform: translate(-50%, calc(-50% - 64px));
+}
+
+.wrapper h1 span {
+  position: absolute;
+}
+
+@media screen and (max-width: 1324px){
+  .ndimande{
+    left: 43.0%;
+  }
+}
+
+@media screen and (max-width: 1269px){
+  .ndimande{
+    left: 42.0%;
+  }
+}
+
+@media screen and (max-width: 1057px){
+  .ndimande{
+    left: 40.5%;
+  }
+}
+
+@media screen and (max-width: 912px){
+  .ndimande{
+    left: 39.5%;
+  }
+  .electrical{
+    left: 36.0%;
+  }
+  .Construction{
+    left: 44.7%;
+  }
+}
+
+@media screen and (max-width: 754px){
+  .ndimande{
+    left: 37.5%;
+    font-size: 40px;
+  }
+  .wrapper h1{
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 700px){
+  .fa{
+    color: black;
+  }
+  .wrapper h1{
+    display: none;
+  }
+  .small-screen h1{
+    display: block;
+  }
+  .wrapper {
+    background: none;
+  }
+   .electrical{
+    left: 30.0%;
+  }
+   .Construction{
+    left: 42.7%;
+  }
+  .maintainance{
+    left: 57.5%;
+  }
+}
+
+@media screen and (max-width: 642px){
+  .electrical{
+    left: 28.0%;
+  }
+   .Construction{
+    left: 41.5%;
+  }
+  .maintainance{
+    left: 57.5%;
+  }
+}
+
+@media screen and (max-width: 600px){
+ .vusimuzi, .electrical, .Construction, .maintainance { 
+    /* display: none; */
+  }
+  .small-screen h1{
+    display: block;
+    top: 40%;
+  }
+   .ndimande{
+    left: 37.5%;
+    font-size: 40px;
+    top: 44%;
+  }
+   .electrical{
+    left: 28.0%;
+    top: 52%;
+  }
+   .Construction{
+    left: 41.5%;
+    top: 56%;
+  }
+  .maintainance{
+    left: 57.5%;
+    top: 60%;
+  }
+ 
+}
+
+@media screen and (max-width: 382px){
+  .small-screen h1{
+    font-size: 50px;
+  }
+  .ndimande{
+    left: 30.5%;
+    font-size: 36px;
+  }
+    .electrical{
+    left: 40.0%;
+    top: 52%;
+    font-size: 26px;
+  }
+   .Construction{
+    left: 40.0%;
+    top: 56%;
+    font-size: 26px;
+  }
+  .maintainance{
+    left: 40.0%;
+    top: 60%;
+    font-size: 26px;
+  }
+}
+
+
